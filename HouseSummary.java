@@ -14,7 +14,7 @@ public class HouseSummary {
       Price. I'm happy the mortgage algorithm was provided because I feel like im so close but. I have to call it here.
       
       System.out.print("This house is $" + currentPrice + ".");
-      System.out.println(" The change is $" + (lastMonthsPrice + " since last month.");
+      System.out.println(" The change is $" + lastMonthsPrice + " since last month.");
       System.out.println("The estimated monthly mortgage is $" + (currentPrice * 0.051 / 12) + ".");
    }
 }
