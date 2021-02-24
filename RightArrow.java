@@ -1,18 +1,21 @@
-import java.util.Scanner; 
+import java.util.Scanner;
 
 public class RightArrow {
    public static void main(String[] args) {
-      Scanner scnr = new Scanner(System.in); 
-      int baseChar; 
-      int headChar; 
-      
-      System.out.println("     1");
-      System.out.println("     11");
-      System.out.println("00000111");
-      System.out.println("000001111");
-      System.out.println("00000111");
-      System.out.println("     11");
-      System.out.println("     1");
-      /* Type your code here. */
+      Scanner scnr = new Scanner(System.in);
+      int baseChar;
+      int headChar;
+
+      baseChar = scnr.nextInt();
+      headChar = scnr.nextInt();
+
+      System.out.println("     " + headChar);
+      System.out.println("     " + headChar + headChar);
+      System.out.println("" + baseChar + baseChar + baseChar + baseChar + baseChar + headChar + headChar + headChar);
+      System.out.println("" + baseChar + baseChar + baseChar + baseChar + baseChar + headChar + headChar + headChar + headChar);
+      System.out.println("" + baseChar + baseChar + baseChar + baseChar + baseChar + headChar + headChar + headChar);
+      System.out.println("     " + headChar + headChar);
+      System.out.println("     " + headChar);
+
    }
 }
